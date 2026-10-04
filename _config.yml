@@ -1,0 +1,94 @@
+---
+booktitle: Proceedings of the 32nd Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2016'
+start: &1 2016-06-25
+end: 2016-06-29
+conference_number: '32'
+volume: R14
+published: 2026-10-04
+firstpublished: 2016-06-25
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2016
+month: 0
+cycles: false
+bibtex_editor: Ihler, Alexander and Janzing, Dominik
+editor:
+- given: Alexander
+  family: Ihler
+- given: Dominik
+  family: Janzing
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 32nd Conference on Uncertainty in Artificial Intelligence
+    Held in Jersey City, New Jersey, USA on 25-29 June 2016
+
+  Published as Reissue 14 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Alexander Ihler
+    Dominik Janzing
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 25--29 Jun
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r14"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r14
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r14
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2016/
+  location: Jersey City, New Jersey, USA
+  dates:
+  - *1
+  - 2016-06-26
+  - 2016-06-27
+  - 2016-06-28
+  - 2016-06-29
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2016_clean.bib
+# Site settings
+# Original source:  uai2016_clean.bib
