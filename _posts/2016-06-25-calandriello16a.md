@@ -9,9 +9,9 @@ abstract: Large-scale kernel ridge regression (KRR) is limited by the need to st
   as a KRR solution, we may be able to approximate them well enough. In this paper,
   we study KRR problems in a sequential setting and introduce the INK-ESTIMATE algorithm,
   that incrementally computes the RLSs estimates. INK-ESTIMATE maintains a small sketch
-  of Kt, that at each step is used to compute an intermediate es- timate of the RLSs.
+  of Kt, that at each step is used to compute an intermediate estimate of the RLSs.
   First, our sketch update does not require access to previously seen columns, and
-  therefore a single pass over the kernel ma- trix is sufficient. Second, the algorithm
+  therefore a single pass over the kernel matrix is sufficient. Second, the algorithm
   requires a fixed, small space budget to run dependent only on the effective dimension
   of the kernel matrix. Finally, our sketch provides strong approximation guarantees
   on the distance ?Kt?Kt?2 , and on the statistical risk of the approximate KRR solution
